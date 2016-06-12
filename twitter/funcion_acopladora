@@ -1,0 +1,43 @@
+#lugares 49 
+#productos con sus nombres 
+
+def producto(x): #el mineral que se obtiene
+    return{
+    'oro':[1,2,3],  
+    'cobre':[1,2,3],
+    'Plata':[4,5],
+    'Molib':[5,6],
+    }.get(x)
+
+def setimiento(x): #el sentimiento que tienen las comunidades
+    return{
+    1: 0,
+    2:0.001,
+    3:0.10,
+    4:0.15,
+    5:0.20,
+    6:0.60,
+    }.get(x)
+
+def lugar(x): #lugares, en este caso proyeto 
+    return{
+    1:'Hilarion',
+    2:'Magistral',
+    3:'San Luis',
+    4:'Anubia',
+    5:'Anubia',
+    6:'Apurimac',
+    }.get(x)
+
+def busca(lista): #ciclo sobe todos esos numeros y bucar ell sentimiento 
+    m=0
+    mi=0
+    for i in range(len(lista)):
+        s=sentimiento(lista[i])
+        if s>m:
+            m=s
+            mi=lista[i]
+    print lugar(mi)
+
+def main():
+    busca(producto('oro')) #es la funcion final donde se devuelve el lugar con el mayor sentimiento 
