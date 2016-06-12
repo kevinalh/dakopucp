@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 from twitter.models import Tweet,  Keyword
 
 from django.core.management.base import BaseCommand
@@ -13,16 +14,21 @@ class Command(BaseCommand):
 
     def handle(self, *args, **options):
         class StreamListenerMineria(tweepy.StreamListener):
-
             def on_status(self, status):
                 id_twitter =  status.id_str
-                id_usuario = status.user.id_sttr
+                id_usuario = status.user.id_str
                 texto =  unidecode(status.text)
-                lugar =  status.location
+                try:
+                    lugar =  status.location
+                except AttributeError:
+                    lugar = None
                 username = status.user.location
                 screename = status.user.screen_name
-                tweet = Tweet.objects.create(id_str = id_twitter,  id_user = id_usuario,  text = texto, 
-                location = lugar,  nombre_usuario = username,  screen_name = screename)
+                tiempo = status.created_at
+                tweet = Tweet.objects.create(id_tweet = id_twitter,  id_user = id_usuario,  text = texto, 
+                location = lugar,  nombre_usuario = username,  screen_name = screename,  tiempo = tiempo, 
+                tiempo_real = tiempo)
+                # tiempo_real = datetime.strptime(tiempo, '%a %b %d %H:%M:%S +0000 %Y')
                 tweet.save()
 
                 def on_error(self, status):
@@ -41,7 +47,7 @@ class Command(BaseCommand):
 
         keywords = Keyword.objects.all()
         keywords_filtro = keywords.filter(filtro_bool = True)
-
+    
         tracklist = [keyword.texto for keyword in keywords_filtro]
 
         def obtenertweets():
@@ -54,8 +60,7 @@ class Command(BaseCommand):
                 time.sleep(6)
                 return obtenertweets()
 
-        if __name__ == 'twitstream.management.commands.obtenertweets':
-            try:
-                obtenertweets()
-            except KeyboardInterrupt:
-                print("Cancelado por teclado")
+        try:
+            obtenertweets()
+        except KeyboardInterrupt:
+            print("Cancelado por teclado")

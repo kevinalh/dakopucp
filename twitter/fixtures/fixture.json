@@ -1,0 +1,442 @@
+{
+    "model": "twitter.keyword",
+    "pk": 62,
+    "fields": {
+        "texto": "Toquepala",
+        "es_hashtag": false,
+        "es_nombre": true,
+        "filtro_bool": true
+    }
+} {
+    "model": "twitter.keyword",
+    "pk": 63,
+    "fields": {
+        "texto": "Los Calatos",
+        "es_hashtag": false,
+        "es_nombre": true,
+        "filtro_bool": true
+    }
+} {
+    "model": "twitter.keyword",
+    "pk": 64,
+    "fields": {
+        "texto": "Ilo",
+        "es_hashtag": false,
+        "es_nombre": true,
+        "filtro_bool": true
+    }
+} {
+    "model": "twitter.keyword",
+    "pk": 65,
+    "fields": {
+        "texto": "Quellaveco",
+        "es_hashtag": false,
+        "es_nombre": true,
+        "filtro_bool": true
+    }
+} {
+    "model": "twitter.keyword",
+    "pk": 66,
+    "fields": {
+        "texto": "Chucapaca",
+        "es_hashtag": false,
+        "es_nombre": true,
+        "filtro_bool": true
+    }
+} {
+    "model": "twitter.keyword",
+    "pk": 67,
+    "fields": {
+        "texto": "Santa Ana",
+        "es_hashtag": false,
+        "es_nombre": true,
+        "filtro_bool": true
+    }
+} {
+    "model": "twitter.keyword",
+    "pk": 68,
+    "fields": {
+        "texto": "Tia Maria",
+        "es_hashtag": false,
+        "es_nombre": true,
+        "filtro_bool": true
+    }
+} {
+    "model": "twitter.keyword",
+    "pk": 69,
+    "fields": {
+        "texto": "Cercana",
+        "es_hashtag": false,
+        "es_nombre": true,
+        "filtro_bool": true
+    }
+} {
+    "model": "twitter.keyword",
+    "pk": 70,
+    "fields": {
+        "texto": "Cerro Verde",
+        "es_hashtag": false,
+        "es_nombre": true,
+        "filtro_bool": true
+    }
+} {
+    "model": "twitter.keyword",
+    "pk": 71,
+    "fields": {
+        "texto": "Tambomayo",
+        "es_hashtag": false,
+        "es_nombre": true,
+        "filtro_bool": true
+    }
+} {
+    "model": "twitter.keyword",
+    "pk": 72,
+    "fields": {
+        "texto": "Zafranal",
+        "es_hashtag": false,
+        "es_nombre": true,
+        "filtro_bool": true
+    }
+} {
+    "model": "twitter.keyword",
+    "pk": 73,
+    "fields": {
+        "texto": "Quechua",
+        "es_hashtag": false,
+        "es_nombre": true,
+        "filtro_bool": true
+    }
+} {
+    "model": "twitter.keyword",
+    "pk": 74,
+    "fields": {
+        "texto": "Constancia",
+        "es_hashtag": false,
+        "es_nombre": true,
+        "filtro_bool": true
+    }
+} {
+    "model": "twitter.keyword",
+    "pk": 75,
+    "fields": {
+        "texto": "Crespo",
+        "es_hashtag": false,
+        "es_nombre": true,
+        "filtro_bool": true
+    }
+} {
+    "model": "twitter.keyword",
+    "pk": 76,
+    "fields": {
+        "texto": "Ccopane",
+        "es_hashtag": false,
+        "es_nombre": true,
+        "filtro_bool": true
+    }
+} {
+    "model": "twitter.keyword",
+    "pk": 77,
+    "fields": {
+        "texto": "Accha",
+        "es_hashtag": false,
+        "es_nombre": true,
+        "filtro_bool": true
+    }
+} {
+    "model": "twitter.keyword",
+    "pk": 78,
+    "fields": {
+        "texto": "Corani",
+        "es_hashtag": false,
+        "es_nombre": true,
+        "filtro_bool": true
+    }
+} {
+    "model": "twitter.keyword",
+    "pk": 79,
+    "fields": {
+        "texto": "Ollachea",
+        "es_hashtag": false,
+        "es_nombre": true,
+        "filtro_bool": true
+    }
+} {
+    "model": "twitter.keyword",
+    "pk": 80,
+    "fields": {
+        "texto": "Quellaveco",
+        "es_hashtag": false,
+        "es_nombre": true,
+        "filtro_bool": true
+    }
+} {
+    "model": "twitter.keyword",
+    "pk": 82,
+    "fields": {
+        "texto": "Pampa de Pongo",
+        "es_hashtag": false,
+        "es_nombre": true,
+        "filtro_bool": true
+    }
+} {
+    "model": "twitter.keyword",
+    "pk": 83,
+    "fields": {
+        "texto": "Inmaculada",
+        "es_hashtag": false,
+        "es_nombre": true,
+        "filtro_bool": true
+    }
+} {
+    "model": "twitter.keyword",
+    "pk": 84,
+    "fields": {
+        "texto": "Marcona",
+        "es_hashtag": false,
+        "es_nombre": true,
+        "filtro_bool": true
+    }
+} {
+    "model": "twitter.keyword",
+    "pk": 85,
+    "fields": {
+        "texto": "Justa",
+        "es_hashtag": false,
+        "es_nombre": true,
+        "filtro_bool": true
+    }
+} {
+    "model": "twitter.keyword",
+    "pk": 86,
+    "fields": {
+        "texto": "Shouxin",
+        "es_hashtag": false,
+        "es_nombre": true,
+        "filtro_bool": true
+    }
+} {
+    "model": "twitter.keyword",
+    "pk": 87,
+    "fields": {
+        "texto": "Los Chancas",
+        "es_hashtag": false,
+        "es_nombre": true,
+        "filtro_bool": true
+    }
+} {
+    "model": "twitter.keyword",
+    "pk": 88,
+    "fields": {
+        "texto": "Apurimac",
+        "es_hashtag": false,
+        "es_nombre": true,
+        "filtro_bool": true
+    }
+} {
+    "model": "twitter.keyword",
+    "pk": 89,
+    "fields": {
+        "texto": "Anubia",
+        "es_hashtag": false,
+        "es_nombre": true,
+        "filtro_bool": true
+    }
+} {
+    "model": "twitter.keyword",
+    "pk": 90,
+    "fields": {
+        "texto": "Bambas",
+        "es_hashtag": false,
+        "es_nombre": true,
+        "filtro_bool": true
+    }
+} {
+    "model": "twitter.keyword",
+    "pk": 91,
+    "fields": {
+        "texto": "Haquira",
+        "es_hashtag": false,
+        "es_nombre": true,
+        "filtro_bool": true
+    }
+} {
+    "model": "twitter.keyword",
+    "pk": 92,
+    "fields": {
+        "texto": "Llama",
+        "es_hashtag": false,
+        "es_nombre": true,
+        "filtro_bool": true
+    }
+} {
+    "model": "twitter.keyword",
+    "pk": 93,
+    "fields": {
+        "texto": "Pucaqaqa",
+        "es_hashtag": false,
+        "es_nombre": true,
+        "filtro_bool": true
+    }
+} {
+    "model": "twitter.keyword",
+    "pk": 94,
+    "fields": {
+        "texto": "Invica",
+        "es_hashtag": false,
+        "es_nombre": true,
+        "filtro_bool": true
+    }
+} {
+    "model": "twitter.keyword",
+    "pk": 95,
+    "fields": {
+        "texto": "Colquijirca",
+        "es_hashtag": false,
+        "es_nombre": true,
+        "filtro_bool": true
+    }
+} {
+    "model": "twitter.keyword",
+    "pk": 97,
+    "fields": {
+        "texto": "Toromocho",
+        "es_hashtag": false,
+        "es_nombre": true,
+        "filtro_bool": true
+    }
+} {
+    "model": "twitter.keyword",
+    "pk": 98,
+    "fields": {
+        "texto": "Quicay",
+        "es_hashtag": false,
+        "es_nombre": true,
+        "filtro_bool": true
+    }
+} {
+    "model": "twitter.keyword",
+    "pk": 99,
+    "fields": {
+        "texto": "Mantaro",
+        "es_hashtag": false,
+        "es_nombre": true,
+        "filtro_bool": true
+    }
+} {
+    "model": "twitter.keyword",
+    "pk": 100,
+    "fields": {
+        "texto": "Rondoni",
+        "es_hashtag": false,
+        "es_nombre": true,
+        "filtro_bool": true
+    }
+} {
+    "model": "twitter.keyword",
+    "pk": 101,
+    "fields": {
+        "texto": "Hilarion",
+        "es_hashtag": false,
+        "es_nombre": true,
+        "filtro_bool": true
+    }
+} {
+    "model": "twitter.keyword",
+    "pk": 102,
+    "fields": {
+        "texto": "San Luis",
+        "es_hashtag": false,
+        "es_nombre": true,
+        "filtro_bool": true
+    }
+} {
+    "model": "twitter.keyword",
+    "pk": 103,
+    "fields": {
+        "texto": "Magistral",
+        "es_hashtag": false,
+        "es_nombre": true,
+        "filtro_bool": true
+    }
+} {
+    "model": "twitter.keyword",
+    "pk": 104,
+    "fields": {
+        "texto": "Shahuindo",
+        "es_hashtag": false,
+        "es_nombre": true,
+        "filtro_bool": true
+    }
+} {
+    "model": "twitter.keyword",
+    "pk": 105,
+    "fields": {
+        "texto": "Conga",
+        "es_hashtag": false,
+        "es_nombre": true,
+        "filtro_bool": true
+    }
+} {
+    "model": "twitter.keyword",
+    "pk": 106,
+    "fields": {
+        "texto": "Galeno",
+        "es_hashtag": false,
+        "es_nombre": true,
+        "filtro_bool": true
+    }
+} {
+    "model": "twitter.keyword",
+    "pk": 107,
+    "fields": {
+        "texto": "Michiquillay",
+        "es_hashtag": false,
+        "es_nombre": true,
+        "filtro_bool": true
+    }
+} {
+    "model": "twitter.keyword",
+    "pk": 108,
+    "fields": {
+        "texto": "La granja",
+        "es_hashtag": false,
+        "es_nombre": true,
+        "filtro_bool": true
+    }
+} {
+    "model": "twitter.keyword",
+    "pk": 110,
+    "fields": {
+        "texto": "Bayovar",
+        "es_hashtag": false,
+        "es_nombre": true,
+        "filtro_bool": true
+    }
+} {
+    "model": "twitter.keyword",
+    "pk": 111,
+    "fields": {
+        "texto": "Fosfatos",
+        "es_hashtag": false,
+        "es_nombre": true,
+        "filtro_bool": true
+    }
+} {
+    "model": "twitter.keyword",
+    "pk": 112,
+    "fields": {
+        "texto": "Sechura",
+        "es_hashtag": false,
+        "es_nombre": true,
+        "filtro_bool": true
+    }
+} {
+    "model": "twitter.keyword",
+    "pk": 113,
+    "fields": {
+        "texto": "Rio Blanco",
+        "es_hashtag": false,
+        "es_nombre": true,
+        "filtro_bool": true
+    }
+}
