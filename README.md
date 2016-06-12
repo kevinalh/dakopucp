@@ -26,21 +26,19 @@ que se hagan en twitter con unos parámetros seleccionados (que contengan keyboa
 de cuentas que por lo general publican cosas acerca de la minería en el Perú) y se guarda en una base de datos. A su vez se recopilan las notas de prensa de la web oficial del Ministerio de Energia y Minas del Perú (http://www.minem.gob.pe/_noticias.php?idSector=1&pagina=1).
 
 Una vez se tiene la data, se clasifica según la mina de la cuál habla la publicación (para este caso clasificamos según
-las 49 priincipales minas del Perú) y se le asigna un "valor de sentimiento". Esto último se refiere a detectar la positividad
-o la negatividad de la publicación acerca de la mina, la cual nombra, con el fin de poder clasificar en un "sentimiento a favor o en contra".
+las 49 principales minas del Perú) y se le asigna un "valor de sentimiento". Esto último se refiere a detectar la positividad o la negatividad de la publicación acerca de la mina, la cual nombra, con el fin de poder clasificar en un "sentimiento a favor o en contra". Esto se consiguió con el Natural Language Processing.
+
 Con esta data, el bot de la aplicación debe publicar cada hora si ha detectado el ingreso a su base de datos de 1000 nuevos twits.
-Por otro lado FALTA programar que nuestro bot pueda leer un twits donde se le mencione y se le acompañe (a dicha publicación) un hashtag que indique un Producto (Oro, Cobre, Plata, Molibdeno, Selenio, Cadmio, Roca fosfórica o Hierro), el cual asociaremos
-a una de las principales minas del país que lo pueda producir y se contestará la publicación prediciendo el mejor lugar
-para extraer dicho producto en base a "los sentimientos" transmitidos a la mineria en ciertos lugares por los internautas.
+
+Por otro lado FALTA programar que nuestro bot pueda leer un twits donde se le mencione y se le acompañe (a dicha publicación) un hashtag que indique un Producto (Oro, Cobre, Plata, Molibdeno, Selenio, Cadmio, Roca fosfórica o Hierro), el cual asociaremo a una de las principales minas del país que lo pueda producir y se contestará la publicación prediciendo el mejor lugar para extraer dicho producto en base a "los sentimientos" transmitidos a la mineria en ciertos lugares por los internautas.
+
 Así pues tenemos el método desarollado (pero no codificado): El hashtag #Oro (por poner un ejemplo de producto) se leería 
 y crearía tantos objetos Resultado, como posibles minas de donde se pueda extraer. Este objeto Resultado consta de dos 
 variables, una primera Mina (identiificaría una de las Minas donde poder extraer el producto) y una segunda Sentimiento
-(un Decimal de tres decimales, el cual indica el valor positivo del twit publicado). Así pues, se publicaría el "mejor Resultado",
-es decir, la Mina en la cuál por la opinión de los internautas y de las notas de prensa relacionadas es más favorable
-ponerse a extraer ese producto demandado.
+(un Decimal de tres decimales, el cual indica el valor positivo del twit publicado). Así pues, se publicaría el "mejor Resultado", es decir, la Mina en la cuál por la opinión de los internautas y de las notas de prensa relacionadas es más favorable ponerse a extraer ese producto demandado.
 A su vez, esta aplicación también tiene fines como "Control a tiempo real de eventos en las RRSS basandose en unos Keywords
 de detección y el sentimiento que se genera alrededor de éste".
 
 Con todo esto hemos querido llevar a cabo un proyecto funcional, escalable y con viabilidad para la vida real.
-Detectamos, registramos y procesamos información digital que circula por la web, una  práctica informática que
+Detectamos, registramos y procesamos información digital que circula por la web, una práctica informática que
 está al orden del día.
